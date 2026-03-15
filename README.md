@@ -2,9 +2,15 @@
 
 A practical binary text-classification project that detects spam SMS messages using a Multinomial Naive Bayes model.
 
+## Problem Statement (Summary)
+
+Unwanted promotional and fraudulent SMS messages are common in real-world communication. Manually filtering spam is slow and inconsistent, so this project focuses on automatically classifying SMS messages into spam or ham.
+
+The goal is to learn patterns in message text and word usage from labeled examples, then generalize well to unseen messages.
+
 ## Project Overview
 
-This project trains a supervised machine learning classifier on the SMS Spam Collection dataset.
+This project trains a supervised machine learning classifier on the SMS Spam Collection dataset. It is a focused baseline implementation that uses a standard text-classification pipeline from preprocessing to evaluation.
 
 - Task type: Supervised learning
 - Problem type: Binary classification
@@ -14,6 +20,8 @@ This project trains a supervised machine learning classifier on the SMS Spam Col
 
 The workflow is implemented in the notebook:
 - Naive_bayes.ipynb
+
+For deeper technical details (step-by-step methodology, code, outputs, and analysis), open and review Naive_bayes.ipynb.
 
 ## Dataset
 
@@ -64,3 +72,7 @@ It also includes a synthetic message test section with:
 
 - This is a baseline, interpretable text-classification pipeline.
 - You can improve performance by testing different vectorization options, adding text preprocessing, or comparing additional models.
+
+## Acknowledgement
+
+This project was completed with support from the Udacity Supervised Learning Course. The notebook flow was practiced, then refined into this focused SMS spam classification project.
