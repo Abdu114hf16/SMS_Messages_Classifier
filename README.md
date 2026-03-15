@@ -19,7 +19,7 @@ This project trains a supervised machine learning classifier on the SMS Spam Col
 The workflow is implemented in the notebook:
 - Naive_bayes.ipynb
 
-*** For deeper technical details (step-by-step methodology, code, outputs, and analysis), open and review Naive_bayes.ipynb. ***
+** For deeper technical details (step-by-step methodology, code, outputs, and analysis), open and review Naive_bayes.ipynb. **
 
 ## Dataset
 
