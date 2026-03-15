@@ -1,12 +1,10 @@
 # SMS Messages Classifier (Naive Bayes)
 
-A practical binary text-classification project that detects spam SMS messages using a Multinomial Naive Bayes model.
+A practical binary text-classification project that detects spam SMS messages using a Naive Bayes model.
 
-## Problem Statement (Summary)
+## Problem Statement
 
-Unwanted promotional and fraudulent SMS messages are common in real-world communication. Manually filtering spam is slow and inconsistent, so this project focuses on automatically classifying SMS messages into spam or ham.
-
-The goal is to learn patterns in message text and word usage from labeled examples, then generalize well to unseen messages.
+Unwanted promotional and fraudulent SMS messages are common in real-world communication. Manually filtering spam is slow and inconsistent, so this project focuses on automatically classifying SMS messages into spam or ham. The goal is to learn patterns in message text and word usage from labeled examples, then generalize well to unseen messages.
 
 ## Project Overview
 
@@ -21,16 +19,13 @@ This project trains a supervised machine learning classifier on the SMS Spam Col
 The workflow is implemented in the notebook:
 - Naive_bayes.ipynb
 
-For deeper technical details (step-by-step methodology, code, outputs, and analysis), open and review Naive_bayes.ipynb.
+*** For deeper technical details (step-by-step methodology, code, outputs, and analysis), open and review Naive_bayes.ipynb. ***
 
 ## Dataset
 
 - File: SMSSpamCollection
 - Original source: UCI SMS Spam Collection
-
-The notebook loads this dataset with two columns:
-- label
-- sms_message
+- Size: (5572 * 2)
 
 ## Repository Structure
 
@@ -42,7 +37,7 @@ The notebook loads this dataset with two columns:
 
 ## How To Run
 
-1. Create/activate a Python environment.
+1. Create/activate a Python environment (such as venv).
 2. Install dependencies:
 
 ```bash
@@ -52,26 +47,6 @@ pip install pandas scikit-learn
 3. Open and run all cells in:
 
 - Naive_bayes.ipynb
-
-## Evaluation In Notebook
-
-The notebook reports standard test-set metrics:
-- Accuracy
-- Precision
-- Recall
-- F1 Score
-
-It also includes a synthetic message test section with:
-- expected label per message
-- predicted label
-- success indicator per row
-- ham/spam probabilities in percentage format
-- synthetic test accuracy
-
-## Notes
-
-- This is a baseline, interpretable text-classification pipeline.
-- You can improve performance by testing different vectorization options, adding text preprocessing, or comparing additional models.
 
 ## Acknowledgement
 
