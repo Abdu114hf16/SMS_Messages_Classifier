@@ -51,3 +51,6 @@ pip install pandas scikit-learn
 ## Acknowledgement
 
 This project was completed with support from the Udacity Supervised Learning Course. The notebook flow was practiced, then refined into this focused SMS spam classification project.
+
+**Author:** Abdullah Alshammari  
+**Email:** abdullah_tecch@gmail.com
