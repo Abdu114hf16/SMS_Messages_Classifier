@@ -54,10 +54,8 @@ This project was completed with support from the Udacity Supervised Learning Cou
 
 ## Author
 
-**Abdullah Alshammari** *Senior Computer Science Student at King Saud University*
+**Abdullah Alshammari** 
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-alshammarii.me-blue?style=flat&logo=googlechrome&logoColor=white)](https://alshammarii.me)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Abdullah%20Alshammari-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-linkedin-profile-username)
 
-- **Field:** Data Science | Data Analytics | Web Production
-- **Email:** [abdullah_tecch@gmail.com](mailto:abdullah_tecch@gmail.com)
