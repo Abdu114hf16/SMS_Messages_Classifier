@@ -56,6 +56,37 @@ This project was completed with support from the Udacity Supervised Learning Cou
 
 **Abdullah Alshammari** 
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-alshammarii.me-blue?style=flat&logo=googlechrome&logoColor=white)](https://alshammarii.me)
+[![Portfolio](https://img.shields.io/badge/Portfolio-alshammari.dev-blue?style=flat&logo=googlechrome&logoColor=white)](https://alshammari.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Abdullah%20Alshammari-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-linkedin-profile-username)
 
+## This is phase 1 of 2
+
+Phase 2 compares this baseline against random forest, bagging and boosting on
+the same features and the same test split:
+<https://github.com/Abdu114hf16/Ensemble_SMS_Classifier>
+
+The two phases are presented as one study on the portfolio, because the
+comparison is the interesting part.
+
+## Limitations
+
+- 5,572 messages, collected some time ago. **Spam language adapts**, so these
+  numbers do not describe current traffic.
+- The corpus is imbalanced, so accuracy alone is misleading: a model that never
+  predicts spam already scores above 80% and is useless.
+- A random split can overestimate robustness when a corpus contains
+  near-duplicate messages, which SMS spam corpora commonly do.
+- Bag-of-words discards word order, so phrase-level patterns are invisible.
+- A production filter needs monitoring for drift, adversarial rewording,
+  multilingual input and sender reputation. None of that is covered here.
+
+## Case study
+
+A full write-up: the business question, the method, the evidence, and what the
+result does not support.
+
+<https://alshammari.dev/projects/sms-spam-model-comparison/>
+
+## License
+
+MIT. See [LICENSE](LICENSE).
